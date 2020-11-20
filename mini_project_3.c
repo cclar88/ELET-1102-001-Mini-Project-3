@@ -15,17 +15,17 @@
 int main() 
 {
     int dayWeek;        //inializing dayweek
-    float timeHourA;     //inializing hours
+    float timeHourA;    //inializing hours
     int timeHourB;
-    float timeMinutesA;  //inializing minutes in decimal
+    float timeMinutesA; //inializing minutes in decimal
     int timeMinutesB;
     char *am_pm;
     float time;         //inializing time of day in 24 hr decimal
     float toll;         //inializing toll fee
     float total;        //inializing total cost
     float exitFee;      //inializing fee based on exits passed
-    float quickPass;
-    float totalAccount;
+    float quickPass;    //inializing quickpass Balance
+    float totalAccount; ///inializing total account balane
     
     printf("Enter 0 for weekday or 1 for weekend/holiday: ");    //User specifiying if Weekday or weekend
     scanf("%d", &dayWeek);
